@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1100px;
+  padding-left: 213px;
+  margin-bottom: 40px;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.main-image {
+  width: 100%;
+  margin-bottom: 102px;
+}
+
+.hotel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 102px;
+
+  margin-bottom: 194.5px;
+}
+
+.hotel-info {
+  display: flex;
+  align-items: center;
+  gap: 112px;
+  color: #14274a;
+  max-width: 1520px;
+}
+
+.hotel-info-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hotel-info-wrapper h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.hotel-info-wrapper p {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.hotel-info-wrapper button {
+  background-color: #e0b973;
+  border: none;
+  padding: 16px 65px;
+
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+
+footer {
+  padding: 77.7px 0 56px;
+  display: flex;
+  justify-content: center;
+  background-color: #14274a;
+  width: 100%;
+  color: white;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1410px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo-contact-wrapper {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-wrapper {
+  font-size: 14px;
+}
+
+.footer-links-container {
+  display: flex;
+  gap: 246px;
+}
+
+.footer-hotel-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-social-media-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: auto 0;
+}
+
+.footer-nav-link {
+  color: white;
+}
